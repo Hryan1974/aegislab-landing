@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,4 +46,76 @@
       margin-bottom: 14px;
     }
     h1 { font-size: 32px; line-height: 1.18; color: #ffffff; margin-bottom: 14px; }
-    h1 span { color: #f59
+    h1 span { color: #f59e0b; }
+    .lead { color: #cbd5e1; font-size: 16px; margin-bottom: 22px; }
+    .btn {
+      display: inline-block;
+      background-color: #f59e0b;
+      color: #090d16;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 12px 18px;
+      border-radius: 8px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .card {
+      background-color: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .card-tag { color: #f59e0b; font-size: 12px; font-weight: 700; margin-bottom: 8px; }
+    .card h2 { font-size: 18px; color: #ffffff; margin-bottom: 8px; }
+    .card p { color: #94a3b8; font-size: 14px; }
+    footer {
+      border-top: 1px solid #1e293b;
+      padding-top: 20px;
+      color: #64748b;
+      font-size: 13px;
+    }
+    footer a { color: #fbbf24; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="brand" href="#">Aegis Lab</a>
+      <a class="nav-link" href="https://hryan1974.github.io/Project_Alethea" target="_blank" rel="noopener">Monograph Series &rarr;</a>
+    </header>
+    <section class="hero">
+      <div class="badge">Sovereign Research Lab</div>
+      <h1>Deterministic Risk Invariants for <span>Autonomous Systems</span></h1>
+      <p class="lead">
+        Formal verification architectures, kinetic risk entropy models, and quantitative market risk frameworks for high-consequence financial and autonomous systems.
+      </p>
+      <a class="btn" href="https://hryan1974.github.io/Project_Alethea" target="_blank" rel="noopener">Access Research Monograph Series &rarr;</a>
+    </section>
+    <section class="grid">
+      <div class="card">
+        <div class="card-tag">01 / FORMAL VERIFICATION</div>
+        <h2>Neuro-Symbolic Risk Bounds</h2>
+        <p>Enforcing mathematical invariants and Kinetic Risk Entropy controls around probabilistic models for verifiable governance.</p>
+      </div>
+      <div class="card">
+        <div class="card-tag">02 / MARKET DYNAMICS</div>
+        <h2>Quantitative &amp; Tail Architectures</h2>
+        <p>Modeling regime transitions, liquidity stress, and tail-risk dynamics across quantitative and digital asset markets.</p>
+      </div>
+      <div class="card">
+        <div class="card-tag">03 / GOVERNANCE SYSTEMS</div>
+        <h2>Institutional Risk Controls</h2>
+        <p>Translating theoretical risk frameworks into structured stress testing, policy guardrails, and auditability.</p>
+      </div>
+    </section>
+    <footer>
+      &copy; 2026 Aegis Lab &middot; Research Archive:
+      <a href="https://hryan1974.github.io/Project_Alethea" target="_blank" rel="noopener">hryan1974.github.io/Project_Alethea</a>
+    </footer>
+  </div>
+</body>
+</html>
