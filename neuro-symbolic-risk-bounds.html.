@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neuro-Symbolic Risk Bounds | Aegis Lab</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: #090d16;
+      color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
+      padding: 24px 16px 56px;
+    }
+    .container { max-width: 840px; margin: 0 auto; }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 18px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid #1e293b;
+      gap: 12px;
+    }
+    .brand { font-size: 18px; font-weight: 800; color: #ffffff; text-decoration: none; }
+    .nav-link { color: #fbbf24; text-decoration: none; font-size: 14px; font-weight: 600; }
+    .badge {
+      display: inline-block;
+      background-color: rgba(245, 158, 11, 0.15);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 14px;
+    }
+    h1 { font-size: 30px; line-height: 1.2; color: #ffffff; margin-bottom: 14px; }
+    .subtitle { color: #cbd5e1; font-size: 17px; margin-bottom: 28px; }
+    .article {
+      background-color: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 28px;
+    }
+    .article h2 {
+      font-size: 20px;
+      color: #ffffff;
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+    .article h2:first-child { margin-top: 0; }
+    .article p { color: #cbd5e1; font-size: 15px; margin-bottom: 14px; }
+    .callout {
+      background-color: #0b1120;
+      border-left: 3px solid #f59e0b;
+      padding: 14px 16px;
+      border-radius: 6px;
+      color: #e2e8f0;
+      font-size: 14px;
+      margin: 18px 0;
+    }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+    .btn {
+      display: inline-block;
+      background-color: #f59e0b;
+      color: #090d16;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 11px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .btn-ghost {
+      display: inline-block;
+      background-color: #111827;
+      color: #f8fafc;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 11px 16px;
+      border-radius: 8px;
+      border: 1px solid #334155;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="brand" href="index.html">Aegis Lab</a>
+      <a class="nav-link" href="index.html">&larr; Back to Overview</a>
+    </header>
+
+    <div class="badge">01 / Formal &amp; Frontier Bounds</div>
+    <h1>Neuro-Symbolic Risk Bounds</h1>
+    <p class="subtitle">
+      Enforcing mathematical invariants and Kinetic Risk Entropy controls around probabilistic models so complex systems remain bounded far from equilibrium.
+    </p>
+
+    <article class="article">
+      <h2>The Limits of Soft Probabilities Under Regime Shift</h2>
+      <p>
+        Statistical and neural models excel at synthesizing high-dimensional structure, yet their outputs remain fundamentally probabilistic. High predictive accuracy on historical or familiar regimes offers no structural guarantee when a system is pushed out of distribution, where tail dependencies tighten and classical correlations break down.
+      </p>
+      <p>
+        In frontier settings—whether autonomous agents, high-leverage markets, or coupled physical-digital workflows—treating safety as an average-case statistical property leaves catastrophic boundary excursions exposed. Bold exploration requires hard structural guarantees rather than optimistic confidence scores.
+      </p>
+
+      <div class="callout">
+        Design Stance: Let neural and statistical engines explore hypotheses and generate candidate actions, while symbolic invariants and risk-state monitors govern whether a state transition is admissible.
+      </div>
+
+      <h2>Step-Level Invariants and Kinetic Risk Entropy</h2>
+      <p>
+        Aegis Lab approaches verification along trajectories rather than isolated endpoints. At each discrete or continuous step, candidate transitions are evaluated against explicit symbolic constraints—such as hard exposure caps, structural conservation laws, and non-negotiable safety predicates.
+      </p>
+      <p>
+        Complementing static constraints is <strong>Kinetic Risk Entropy</strong>: tracking how rapidly dispersion, state uncertainty, or proximity to critical boundaries accelerates over time. Rising kinetic risk entropy serves as an early structural warning that a system is losing stability before a hard limit is breached, allowing proactive damping, constraint tightening, or safe fallback.
+      </p>
+
+      <h2>Verifiable Integrity Without Stifling Exploration</h2>
+      <p>
+        Hard bounds are often mistaken for rigid stagnation. Properly formulated, clear invariants define a safe operating manifold within which high-agency exploration can proceed with confidence, leaving a transparent, auditable record of why every permitted or rejected action occurred.
+      </p>
+
+      <div class="actions">
+        <a class="btn" href="https://hryan1974.github.io/Project_Alethea" target="_blank" rel="noopener">Explore Project Alethea Monograph &rarr;</a>
+        <a class="btn-ghost" href="emergent-behavioral-science.html">Next: Emergent Behavioral Science &rarr;</a>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
